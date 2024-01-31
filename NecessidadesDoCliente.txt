@@ -1,0 +1,4 @@
+registrar quem entra e quem sai/Gerenciamento de liberação para cada pessoa, somente pessoas autorizadas, e registro de 
+serviço especifico do por que a pessoa entrou na sala. 
+não haver mais o gerenciamento de chave física, mas sim fechadura eletrônica (senha, cartão/número cracha, identificão do professor pelo código de barras ou digital)
+câmera, as pessoas que entram e ficam na sala, 

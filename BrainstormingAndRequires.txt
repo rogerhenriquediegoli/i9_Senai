@@ -1,0 +1,68 @@
+Brainstorming fechadura digital:
+
+- Cartão de acesso, com registro de autorização
+para cada docente. Registrar a entrada e a saída;
+
+- Sistema de agenda de autorização para entrada nas salas;
+
+-----------------------------------------------------------
+
+Levantamento de Requisitos: 
+Funcionais:
+
+Fechadura:
+- Deve permitir a pessoa entrar em salas específicas (De acordo com o seu cargo e autorização específica,
+onde estas informações estarão no software), apartir de uma fechadura eletrônica, que é aberta por um leitor de cartão
+(que conterá o nome ou Id de identificação específica de cada docente), que permitirá a análise e liberação.
+
+- Abrir e fechar a fechadura somente quando acionado o sensor (alterando o estado de se o docente está ou não na sala);
+
+- Cadastro de Id ou Nome no cartão de cada docente, para estar apto à utilizar este recurso (Em uma central de cadastro, pode ser o mesmo docente
+responsável pelo software)
+
+Software:
+- O software deve permitir cadastrar os docentes, a partir de um ADM, que irá estipular os cargos e autoridades (onde cada um 
+pode entrar em salas específicas) e assim, a fechadura, ao identificar a pessoa, buscará no banco de dados as informações
+respectiva à aquele usuario e assim, sabendo se a pessoa pode ou não entrar na sala. EXTRA: Um sistema de agenda deve ser implementado
+e gerenciado por um docente específico, para permitir o agendamento de salas para funcionários específicos, onde este sistema é resetado
+ao final do dia.
+
+-Além de cadastros, deve permitir ver as salas utilizadas no momento, e o estado naquele momento (docente X está na sala, docente Y não está na sala),
+para o controle de uso das salas. Como não é permitido os alunos estarem sozinhos na sala (sem a presença de um docente), é necessário saber se o professor/alunos
+estão na sala ou não. Com este sistema, isto é possível, com uma atualização de estado em tempo real, talvez em um monitor (substituindo o painel de chaves).
+
+Não Funcionais:
+
+Fechadura:
+- Segurança: A fechadura deve atender aos padrões de segurança estabelecidos para ambientes controlados, garantindo proteção contra manipulações indevidas e violações
+(Se cartão inválido/nãoApto tentar mais que 5 vezes, é bloqueado a fechadura, e somente cartão mestre destrava).
+
+- Confiabilidade:A fechadura eletrônica deve ser altamente confiável, garantindo um baixo índice de falhas no processo de leitura do cartão, previnindo problemas 
+
+- Durabilidade: A fechadura deve ser construída com materiais duráveis e resistentes, capazes de suportar o uso diário e as condições ambientais do local de instalação
+
+- Consumo de Energia: A fechadura deve ser eficiente em termos de consumo de energia, visando prolongar a vida útil das baterias ou fonte de alimentação.
+
+- Integração com Sistema de Controle de Acesso: A fechadura deve ser compatível e integrada de maneira eficiente com o sistema de controle de acesso existente, permitindo uma comunicação consistente.
+
+
+Software (Aplicativo):
+- Desempenho: O software deve ser otimizado para garantir um desempenho rápido e eficiente na identificação de usuários e controle de acesso às salas.
+
+- Escalabilidade: O sistema deve ser projetado para lidar com um aumento no número de usuários e salas, garantindo que o desempenho permaneça consistente à medida que a demanda aumenta (principalmente
+neste caso, o sistema de agenda de salas).
+
+- Segurança da Informação: O software deve implementar práticas robustas de segurança da informação, garantindo a confidencialidade e integridade dos dados dos docentes, cargos e autorizações.
+
+- Disponibilidade: O sistema deve estar disponível de forma contínua, minimizando o tempo de inatividade para garantir o acesso contínuo às salas conforme necessário (período de expediente).
+
+- Usabilidade: O aplicativo deve ser intuitivo e de fácil utilização, permitindo que administradores e usuários finais operem o sistema com eficiência e sem a necessidade de treinamento extensivo.
+
+- Manutenção: O sistema deve ser de fácil manutenção, com a capacidade de realizar atualizações de software e correções de bugs de maneira eficiente e mínima interferência no uso cotidiano.
+
+- Backup e Recuperação de Dados: O sistema deve ter um plano eficaz de backup e recuperação de dados para evitar perda de informações críticas em caso de falhas no sistema.
+
+
+
+
+
