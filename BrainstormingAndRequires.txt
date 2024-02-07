@@ -1,5 +1,9 @@
-Brainstorming fechadura digital:
+O que é Brainstorming? 
+O brainstorming ou tempestade de ideias
 
+Brainstorming fechadura digital:
+Problemática: Gerenciamento das chaves de cada sala (forma atual),
+que é falho (dificuldade em saber quem está utilizando as salas/)
 - Cartão de acesso, com registro de autorização
 para cada docente. Registrar a entrada e a saída;
 
