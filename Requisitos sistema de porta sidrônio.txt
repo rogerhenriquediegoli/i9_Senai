@@ -1,0 +1,17 @@
+Requisitos sistema de porta sidrônio:
+
+-> Fechadura para porta que possibilite a atualização do indivíduo dentro da sala (a partir de um status/etiqueta), a partir de um sistema de gerenciamento em tempo real.
+	-> Botão pelo lado de dentro das portas para sair da sala;
+	-> 
+-> Histórico de acesso das salas (ser possível consultar datas, horarios, etc...);
+-> Duas opções de entrada na sala: Teclado de Senha e Leitor RFID;
+-> Cartão terá uma credencial de identificação para cada docente. A senha deverá ser única para cada docente também;
+-> Cartão de Abertura e Fechamento (altera o status da sala) X Cartão de saída temporária da sala;
+	-> 1 cartão para cada docente e 1 cartão para cada sala (para entrada e saída de alunos e professores temporariamente)
+	-> O teclado de senhas servirá somente para atualização do status da sala.
+	-> Os cartões de sala precisaram servir somente para a sala específica, de acordo com a credencial;
+-> Cadastro de Docentes (Informações no software e gravação das credenciais no cartão RFID;
+-> Cadastro de Salas (mapeamento da escola);
+-> Monitoramento em tempo real das salas: ocupadas (mostrar docente que está utilizando), disponíveis (livres para uso) e bloqueadas (mostrar razão);
+	-> Tela que seja possível filtrar por etiquetas;
+
